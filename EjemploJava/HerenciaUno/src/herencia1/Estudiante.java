@@ -12,6 +12,9 @@ public class Estudiante {
     protected String identificacionEstudiante;
     // # edadEstudiante: Entero
     protected int edadEstudiante;
+    protected String modalidad;
+    
+   
 
     //  Métodos establecer y calcular para los datos o atributos de la clase
     
@@ -55,5 +58,6 @@ public class Estudiante {
     public int obtenerEdadEstudiante(){
         return edadEstudiante;
     }
+    
 
 }

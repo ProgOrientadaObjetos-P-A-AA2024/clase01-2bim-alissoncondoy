@@ -5,6 +5,7 @@
  */
 package herencia2;
 
+import herencia1.Estudiante;
 import java.util.Locale;
 import java.util.Scanner;
 import herencia1.EstudianteDistancia;
@@ -20,8 +21,23 @@ public class Ejecutor3 {
         // opción
         // un objeto de tipo Estudiante Presencial si el usuario ingresa 2 como 
         // opción
-        
         Scanner entrada = new Scanner(System.in);
+        
+        System.out.println("Ingrese 1 para un Estudiante a Distancia y 2 para un Estudiante Presencial: ");
+        int opcion = entrada.nextInt();
+        
+        switch (opcion) {
+            case 1:
+                Estudiante estudianteDistancia = new Estudiante();
+                
+                
+                break;
+            default:
+                throw new AssertionError();
+        }
+        
+        
+       
         entrada.useLocale(Locale.US);
         System.out.println("Ingrese nombres");
         String nombres = entrada.nextLine();
