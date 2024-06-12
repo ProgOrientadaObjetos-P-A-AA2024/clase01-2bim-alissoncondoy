@@ -45,9 +45,13 @@ public class EstudiantePresencial extends Estudiante{
     @Override
     public String toString(){
         String cadena = String.format("Nombre: %s\n"
-                + "Costo Matricula: %.2f", nombresEstudiante, 
+                + "Costo Matricula: %.2f", obtenerNombresEstudiante(), 
                 obtenerMatriculaPresencial());
         return cadena;
-       
+        
+    /*
+    Obtener estudiante es un metodo que a pesar de no estar en esta clase
+    se puede usar ya que esta se hereda de la supeclase Estudiante
+    */   
     }
 }
