@@ -35,7 +35,7 @@ public class Ejecutor3 {
         identificacion = entrada.nextLine();
         System.out.print("Ingrese edad: ");
         edad = entrada.nextInt();
-        System.out.print("Ingrese la opcion en la que desea ingresar\n"
+        System.out.print("Ingrese la opcion que necesite\n"
                 + "1. Estudiante Distancia\n"
                 + "2. Estudiante Presencial\n");
            
